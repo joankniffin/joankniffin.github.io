@@ -5,7 +5,7 @@ function colocarReina(celda) {
 
   if (window.getComputedStyle(celda).backgroundImage == "none") {
     if (reinasColocadas < 8) {
-      celda.style = "background-image: url(reina.png); background-size:cover;";
+      celda.style = "background-image: url(/reina.png); background-size:cover;";
       var renglon = celda.parentElement.rowIndex;
       var columna = celda.cellIndex;
       var tablero = document.getElementById("tabla");
